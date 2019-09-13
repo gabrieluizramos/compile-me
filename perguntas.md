@@ -102,4 +102,4 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 - Imagine um cenário: você recebe um novo projeto pra desenvolver do zero. Como você definiria a arquitetura desse projeto? Quais tecnologias usaria?
 - Como você começou no mundo do desenvolvimento?
 - Como você se mantém atualizado (cursos, posts, blogs)? Quais?
-
+- Como você costuma garantir qualidade e padrão no código?

@@ -5,14 +5,14 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 
 ### HTML
 - Você saberia explicar um pouco sobre semântica, como aplicar corretamente nas suas tags e quais seus benefícios?
-    - R: Semântica está relacionado à dar significado às tags ap navegador. Antigamente todas as tags eram escritas com div. Hoje com o HTML5 existem tags que envolvem os elementos com significado real, como: `header`, `footer`, `article`, `section` e outras. Deve-se levar em consideração a semântica correta da informação que você deseja "taguear" ao escrecer um elemento.
+    - R: Semântica está relacionado à dar significado às tags ap navegador. Antigamente todas as tags eram escritas com div. Hoje com o `HTML5` existem tags que envolvem os elementos com significado real, como: `header`, `footer`, `article`, `section` e outras. Deve-se levar em consideração a semântica correta da informação que você deseja "taguear" ao escrecer um elemento.
 
 ### CSS
-- Você já utilizou ou já leu algo sobre metodologias CSS? (BEM)
-    - R: Resposta aberta
+- Você já utilizou ou já leu algo sobre metodologias `CSS`?
+    - R: Resposta aberta, mas podem ser citadas algumas como `BEM`, `SMACSS`, `OOCSS`.
 - Você saberia diferenciar um pré-processador de um pós-processador?
-    - R: Pré-processadores são utilizados para processar uma linguagem que resultara em arquivo(s) CSS em um processo de build (como Sass/Less) e pós-processadores (como o PostCSS) atuam em momento pós build, agregando alguma regra no CSS gerado (como adicionar fallback nas regras não suportadas em alguns navegadores). Basicamente segue um fluxo como: linguagem (Sass/Less) --> {pré-processador} --> CSS --{pós-processador}--> arquivos de CSS finais + novas regras
-- Como você organizaria os seletores CSS de uma lista organizada da seguinte maneira:
+    - R: Pré-processadores são utilizados para processar uma linguagem que resultara em arquivo(s) `CSS` em um processo de build (como `Sass/Less`) e pós-processadores (como o `PostCSS`) atuam em momento pós build, agregando alguma regra no `CSS` gerado (como adicionar fallback nas regras não suportadas em alguns navegadores). Basicamente segue um fluxo como: `linguagem (Sass/Less) --> {pré-processador} --> CSS --{pós-processador}--> arquivos de CSS finais + novas regras`
+- Como você organizaria os seletores `CSS` de uma lista organizada da seguinte maneira:
 ```html
 <article>
     <section>
@@ -92,7 +92,7 @@ Algumas perguntas para serem feitas ao longo da entrevista.
     - R: `Webpack` é um `module bundler` (agrega módulos, realiza build dos arquivos e resolve dependências), assim como o `Browserify`.
 - No `package.json`, você saberia elencar a diferença entre `dependencies`, `devDependencies` e `peerDependencies`?
     - R: `dependencies` são dependencias que são necessárias ao rodar a aplicação (como `react`, `react-dom`). `devDependencies` são dependencias que são necessárias apenas em ambiente de desenvolvimento e `peerDependencies` é uma categoria que visa especificar pacotes que dependem de outros pacote, mais utilizados em bibliotecas compartilhadas, evitando a necessidade de instalar um pacote em uma versão específica e utilizando a versão provida pelo ambiente.
-- Pra que serve o arquivo package-lock e yarn.lock?
+- Pra que serve o arquivo `package-lock` e `yarn.lock`?
     - R: Para manter a "árvore" de dependências "travada" e evitar conflito em diferentes ambientes/máquinas.
 - Por quê você usou yarn ao invés do NPM?
     - R: Resposta aberta.

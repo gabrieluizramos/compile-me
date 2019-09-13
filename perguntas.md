@@ -5,11 +5,28 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 
 ### HTML
 - Você saberia explicar um pouco sobre semântica, como aplicar corretamente nas suas tags e quais seus benefícios?
-    - R: Semântica está relacionado à dar significado às tags ap navegador. Antigamente todas as tags eram escritas com div. Hoje com o HTML5 existem tags que envolvem os elementos com significado real, como: `header`, `footer`, `article`, `section` e outras. Deve-se levar em consideração a semântica correta da informação que você deseja "tagear" ao escrecer um elemento.
+    - R: Semântica está relacionado à dar significado às tags ap navegador. Antigamente todas as tags eram escritas com div. Hoje com o HTML5 existem tags que envolvem os elementos com significado real, como: `header`, `footer`, `article`, `section` e outras. Deve-se levar em consideração a semântica correta da informação que você deseja "taguear" ao escrecer um elemento.
 
 ### CSS
 - Você já utilizou ou já leu algo sobre metodologias CSS? (BEM)
+    - R: Resposta aberta
 - Você saberia diferenciar um pré-processador de um pós-processador?
+    - R: Pré-processadores são utilizados para processar uma linguagem que resultara em arquivo(s) CSS em um processo de build (como Sass/Less) e pós-processadores (como o PostCSS) atuam em momento pós build, agregando alguma regra no CSS gerado (como adicionar fallback nas regras não suportadas em alguns navegadores). Basicamente segue um fluxo como: linguagem (Sass/Less) --> {pré-processador} --> CSS --{pós-processador}--> arquivos de CSS finais + novas regras
+- Como você organizaria os seletores CSS de uma lista organizada da seguinte maneira:
+```html
+<article>
+    <section>
+        <dl>
+            <dt>Front-end</dt>
+            <dd>Responsável pelo desenvolvimento que está atrelado à camada "de frente" de uma aplicação, como navegadores</dd>
+            <dt>Back-end</dt>
+            <dd>Responsável pelo desenvolvimento da camada de servidor, que, geralmente, não é interage diretamente com o usuário final via navegador</dd>
+            <dt>OPS/Infra/SRE</dt>
+            <dd>Responsável pela camada de infraestrutura (geralmente cloud) que suportará as aplicações</dd>
+        </dl>
+    </section>
+</article>
+```
 
 ### JS
 - Qual a diferença de variáveis declaradas com var variáveis declaradas com let/const?

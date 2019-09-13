@@ -1,5 +1,6 @@
 # Entrevistas
-Repositório para armazenar perguntas/desafios a serem aplicados ao longo de uma entrevista.
+Repositório para armazenar algumas dinâmicas a serem aplicadas ao longo de entrevistas.
+Qualquer erro, sinta-se livre para corrigir e enviar seu PR 😊
 
 Atualmente contém:
 - [perguntas](perguntas.md)

@@ -32,7 +32,7 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 - Qual a diferença de variáveis declaradas com `var` variáveis declaradas com `let/const`?
     - R: Antigamente todas as variáveis eram declaradas com `var`. Existiam alguns detalhes de escopo (como `hoisting`) e de leitura ao utilizar essa forma que deveriam ser levados em consideração, por exemplo: ao executar um `console.log` de uma variável declarada com `var` que ainda não tenha recebido uma atribuição, você recebe `undefined` ao invés de um erro. Variáveis declaradas com `let/const` previnem que isso aconteça, gerando um erro no caso mencionado e também possuem algumas diferenças, já que variáveis declaradas com `const` não permitem reatribuição de valor e variáveis declaradas com `let`, sim. Além disso, variáveis declaradas com `let/const` possuem escopo de bloco (ou léxico), ou seja, seu acesso está restrito ao bloco onde são declaradas. O que não acontece com `var`, já que possui como escopo o contexto de execução (tente rodar um `for` declarando uma variável de controle `i`, você conseguirá acessar o valor dela após as repetições).
 - Você sabe a diferença entre uma `function` comum e uma `arrow function`?
-    - R: Funções declaradas com `function` possuem `this` "dinâmico", pois dependem de um contexto de execução. Já `arrow functions`, possuem o `this` estático, acessando o valor mediante do local onde são declaradas. Além disso, `arrow functions` também são conhecidas por deixarem a escrita mais enxuta e por ter a possibilidade de deixar o argumento `return` implícito.
+    - R: Funções declaradas com `function` possuem `this` "dinâmico", pois dependem de um contexto de execução. Já `arrow functions`, possuem o `this` estático, acessando o valor mediante ao local onde são declaradas. Além disso, `arrow functions` também são conhecidas por deixarem a escrita mais enxuta e por ter a possibilidade de deixar o argumento `return` implícito.
 - Mais alguma funcionalidade `ES6+` que você tenha gostado?
     - R: Resposta aberta.
 - Você sabe o que é uma aplicação isomórfica/universal?
@@ -103,4 +103,5 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 - Imagine um cenário: você recebe um novo projeto pra desenvolver do zero. Como você definiria a arquitetura desse projeto? Quais tecnologias usaria?
 - Como você começou no mundo do desenvolvimento?
 - Como você se mantém atualizado (cursos, posts, blogs)? Quais?
+- Qual foi a última coisa que você aprendeu (ou assunto pelo qual se interessou)?
 - Como você costuma garantir qualidade e padrão no código?

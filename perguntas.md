@@ -14,22 +14,6 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 - Você saberia diferenciar um pré-processador de um pós-processador?
     - R: Pré-processadores são utilizados para processar uma linguagem que resultara em arquivo(s) `CSS` em um processo de build (como `Sass/Less`) e pós-processadores (como o `PostCSS`) atuam em momento pós build, agregando alguma regra no `CSS` gerado (como adicionar fallback nas regras não suportadas em alguns navegadores). Basicamente segue um fluxo como: `linguagem (Sass/Less) --> {pré-processador} --> CSS --{pós-processador}--> arquivos de CSS finais + novas regras`
 
-- Como você organizaria os seletores `CSS` de uma lista organizada da seguinte maneira:
-```html
-<article>
-    <section>
-        <dl>
-            <dt>Front-end</dt>
-            <dd>Responsável pelo desenvolvimento que está atrelado à camada "de frente" de uma aplicação, como navegadores</dd>
-            <dt>Back-end</dt>
-            <dd>Responsável pelo desenvolvimento da camada de servidor, que, geralmente, não é interage diretamente com o usuário final via navegador</dd>
-            <dt>OPS/Infra/SRE</dt>
-            <dd>Responsável pela camada de infraestrutura (geralmente cloud) que suportará as aplicações</dd>
-        </dl>
-    </section>
-</article>
-```
-
 ### JS
 - Qual a diferença de variáveis declaradas com `var` variáveis declaradas com `let/const`?
     - R: Antigamente todas as variáveis eram declaradas com `var`. Existiam alguns detalhes de escopo (como `hoisting`) e de leitura ao utilizar essa forma que deveriam ser levados em consideração, por exemplo: ao executar um `console.log` de uma variável declarada com `var` que ainda não tenha recebido uma atribuição, você recebe `undefined` ao invés de um erro. Variáveis declaradas com `let/const` previnem que isso aconteça, gerando um erro no caso mencionado e também possuem algumas diferenças, já que variáveis declaradas com `const` não permitem reatribuição de valor e variáveis declaradas com `let`, sim. Além disso, variáveis declaradas com `let/const` possuem escopo de bloco (ou léxico), ou seja, seu acesso está restrito ao bloco onde são declaradas. O que não acontece com `var`, já que possui como escopo o contexto de execução (tente rodar um `for` declarando uma variável de controle `i`, você conseguirá acessar o valor dela após as repetições).

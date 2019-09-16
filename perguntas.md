@@ -10,8 +10,10 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 ### CSS
 - Você já utilizou ou já leu algo sobre metodologias `CSS`?
     - R: Resposta aberta, mas podem ser citadas algumas como `BEM`, `SMACSS`, `OOCSS`.
+
 - Você saberia diferenciar um pré-processador de um pós-processador?
     - R: Pré-processadores são utilizados para processar uma linguagem que resultara em arquivo(s) `CSS` em um processo de build (como `Sass/Less`) e pós-processadores (como o `PostCSS`) atuam em momento pós build, agregando alguma regra no `CSS` gerado (como adicionar fallback nas regras não suportadas em alguns navegadores). Basicamente segue um fluxo como: `linguagem (Sass/Less) --> {pré-processador} --> CSS --{pós-processador}--> arquivos de CSS finais + novas regras`
+
 - Como você organizaria os seletores `CSS` de uma lista organizada da seguinte maneira:
 ```html
 <article>
@@ -31,26 +33,36 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 ### JS
 - Qual a diferença de variáveis declaradas com `var` variáveis declaradas com `let/const`?
     - R: Antigamente todas as variáveis eram declaradas com `var`. Existiam alguns detalhes de escopo (como `hoisting`) e de leitura ao utilizar essa forma que deveriam ser levados em consideração, por exemplo: ao executar um `console.log` de uma variável declarada com `var` que ainda não tenha recebido uma atribuição, você recebe `undefined` ao invés de um erro. Variáveis declaradas com `let/const` previnem que isso aconteça, gerando um erro no caso mencionado e também possuem algumas diferenças, já que variáveis declaradas com `const` não permitem reatribuição de valor e variáveis declaradas com `let`, sim. Além disso, variáveis declaradas com `let/const` possuem escopo de bloco (ou léxico), ou seja, seu acesso está restrito ao bloco onde são declaradas. O que não acontece com `var`, já que possui como escopo o contexto de execução (tente rodar um `for` declarando uma variável de controle `i`, você conseguirá acessar o valor dela após as repetições).
+
 - Você sabe a diferença entre uma `function` comum e uma `arrow function`?
     - R: Funções declaradas com `function` possuem `this` "dinâmico", pois dependem de um contexto de execução. Já `arrow functions`, possuem o `this` estático, acessando o valor mediante do local onde são declaradas. Além disso, `arrow functions` também são conhecidas por deixarem a escrita mais enxuta e por ter a possibilidade de deixar o argumento `return` implícito.
+
 - Mais alguma funcionalidade `ES6+` que você tenha gostado?
     - R: Resposta aberta.
+
 - Você sabe o que é uma aplicação isomórfica/universal?
     - R: São aplicações que podem ser executadas tanto no backend, quando no frontend, como aplicações realizadas utilizando server-side rendering.
 - Você sabe o que é um `Callback Hell`?
     - R: É um código ("ambiente") resultante de utilizações de `callbacks` passadas e executadas de forma desorganizada.
+
 - Como evitar um `Callback Hell`?
     - R: Modularizando funções de forma mais organizadas e também usando `promises`.
+
 - Você saberia explicar o que são `Promises`?
     - R: São objetos JS que possibilitam executar código assíncrono de forma mais organizada. Literalmente são "promessas" de que um valor será retornado, com ou sem sucesso.
+
 - Como evitar um `Promise Hell`?
-    - R: Modularizando suas funções de forma organizada, executando `promises` em paralelo e também usando `async/await`. 
+    - R: Modularizando suas funções de forma organizada, executando `promises` em paralelo e também usando `async/await`.
+
 - Como executar `Promises` em paralelo?
     - R: Com `Promise.all()`, que recebe um `array` de `promises` e retorna outra `promise` que, ao ser finalizada com sucesso, retorna um array com os resultados.
+
 - Você sabe como funciona o `async/await`?
     - R: `async/await` é uma forma `syntax sugar` de utilizar `Promises`, quem utiliza também o conceito de `function generators` por debaixo dos panos.
+
 - Você saberia explicar sobre `.map`, `.filter` e `.reduce`?
     - R: São algumas formas de manipular `arrays`. Todas as funções recebem uma função de callback. `.map` recebe uma função de e aplica uma determinada operação à todos os itens do `array` retornando um novo `array`. `.filter` recebe uma função responsável por checar condicionalmente quais itens devem estar no novo `array`. `.reduce` recebe uma função responsável por acumular e retornar um novo valor qualquer.
+
 - Qual a difereça entre os métodos `.filter` e `.find` de um `array`?
     - R: `.filter` recebe um `callback` que é executado em todos os elementos do `array` com intenção de filtrá-los mediante à uma condição. Já o `.find` retorna a primeira ocorrência no `array` de uma determinada condição, parando a execução do loop nos demais itens que ainda não foram percorridos.
 
@@ -90,10 +102,13 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 ### Tooling
 - Você sabe o que é o `Webpack`? Já chegou a mexer com ele e configurar algumas rotinas de `build` de desenvolvimento/produção?
     - R: `Webpack` é um `module bundler` (agrega módulos, realiza build dos arquivos e resolve dependências), assim como o `Browserify`.
+
 - No `package.json`, você saberia elencar a diferença entre `dependencies`, `devDependencies` e `peerDependencies`?
     - R: `dependencies` são dependencias que são necessárias ao rodar a aplicação (como `react`, `react-dom`). `devDependencies` são dependencias que são necessárias apenas em ambiente de desenvolvimento e `peerDependencies` é uma categoria que visa especificar pacotes que dependem de outros pacote, mais utilizados em bibliotecas compartilhadas, evitando a necessidade de instalar um pacote em uma versão específica e utilizando a versão provida pelo ambiente.
+
 - Pra que serve o arquivo `package-lock` e `yarn.lock`?
     - R: Para manter a "árvore" de dependências "travada" e evitar conflito em diferentes ambientes/máquinas.
+
 - Por quê você usou yarn ao invés do NPM?
     - R: Resposta aberta.
 
@@ -101,6 +116,9 @@ Algumas perguntas para serem feitas ao longo da entrevista.
 
 ## Gerais
 - Imagine um cenário: você recebe um novo projeto pra desenvolver do zero. Como você definiria a arquitetura desse projeto? Quais tecnologias usaria?
+
 - Como você começou no mundo do desenvolvimento?
+
 - Como você se mantém atualizado (cursos, posts, blogs)? Quais?
+
 - Como você costuma garantir qualidade e padrão no código?

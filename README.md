@@ -6,7 +6,7 @@ Atualmente contém:
 - [perguntas](perguntas.md)
 - [desafios](desafios.md)
 
-Leitura adicional:
-- [series](./series)
-    - [javascript engines](./series/javascript-engines.md)
-    - [master the javascript interview](./series/master-the-javascript-interview.md)
+Conteúdo adicional para estudos:
+- [estudos](./estudos)
+    - [javascript engines](./estudos/javascript-engines.md)
+    - [master the javascript interview](./estudos/master-the-javascript-interview.md)

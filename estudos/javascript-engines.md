@@ -9,6 +9,7 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
 - ["JavaScript Engines: How do they even work? From Call Stack do Promise, (almost) everything you need to know", por Valentino Gagliardi](https://www.valentinog.com/blog/engines/)
 - ["Understanding the Node.js Event Loop"](https://blog.risingstack.com/node-js-at-scale-understanding-node-js-event-loop/)
 - ["O que é esse Event Loop, afinal?"](https://imasters.com.br/front-end/node-js-o-que-e-esse-event-loop-afinal)
+- ["Should you be using Web Workers? (hint: probably not)", por David Gilbertson](https://medium.com/@david.gilbertson/should-you-should-be-using-web-workers-hint-probably-not-9b6d26dc8c6a)
 
 ## Vídeos
 - JSConf

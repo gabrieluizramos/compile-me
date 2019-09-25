@@ -2,6 +2,7 @@
 Uma coleção de links para alguns conteúdos sobre engines JavaScript.
 
 ## Leitura
+- [Browser Engines... Chromium, V8, Blink? Gecko? WebKit?](https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968)
 - [V8 blog, Engine JavaScript do Chrome/NodeJS](https://v8.dev)
     - [Mathias Bynens](https://mathiasbynens.be)
     - [Addy Osmany](https://addyosmani.com)

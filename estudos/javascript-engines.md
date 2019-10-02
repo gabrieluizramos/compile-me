@@ -20,3 +20,4 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
     - ["Futher Adventures of the Event Loop", por Erin Zimmer](https://www.youtube.com/watch?v=u1kqx6AenYw)
     - ["In The Loop", por Jake Archibald](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
     - ["Asynchrony: Under the Hood", por Shelley Vohr](https://www.youtube.com/watch?v=SrNQS8J67zc)
+    - ["How Node.js Works", por Mosh](https://www.youtube.com/watch?v=jOupHNvDIq8)

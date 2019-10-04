@@ -2,7 +2,7 @@
 Uma lista com alguns conteúdos sobre como os navegadores funcionam e performance em geral.
 
 ## Leitura
-- [How Browser Works: Behind the scenes of modern web browsers"](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- ["How Browser Works: Behind the scenes of modern web browsers"](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
 ## Vídeos
 - [série "Browser Exploitation", do LiveOverflow](https://liveoverflow.com/tag/browser-exploitation/)

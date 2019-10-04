@@ -9,4 +9,5 @@ Atualmente contém:
 Conteúdo adicional para estudos:
 - [estudos](./estudos)
     - [javascript engines](./estudos/javascript-engines.md)
+    - [browsers](./estudos/browsers.md)
     - [master the javascript interview](./estudos/master-the-javascript-interview.md)

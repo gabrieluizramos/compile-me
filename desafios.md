@@ -36,4 +36,4 @@ isPalindrome('jarbas') // => false
     - R: O mais prático é utilizar um `.map` e passar como `callback` a função que somará um em cada item do array, algo como `.map(value => value + 1)`.
 
 - Imagine o seguinte `array`: `[0, 1, 2, 3, 4]`. Como você faria para transformá-lo em um `array` como: `[0, 2, 4]`?
-    - R: O mais prático é utilizar um `.filter` e passar como `callback` a função validará se o item é par, algo como `.map(value => value % 2 === 0)`.
+    - R: O mais prático é utilizar um `.filter` e passar como `callback` a função validará se o item é par, algo como `.filter(value => value % 2 === 0)`.

@@ -13,6 +13,7 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
 - ["O que é esse Event Loop, afinal?"](https://imasters.com.br/front-end/node-js-o-que-e-esse-event-loop-afinal)
 - ["Should you be using Web Workers? (hint: probably not)", por David Gilbertson](https://medium.com/@david.gilbertson/should-you-should-be-using-web-workers-hint-probably-not-9b6d26dc8c6a)
 - ["Tasks, microtasks, queues and schedules", por Jake Archibald](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
+- ["Understanding NodeJS without a Computer Sciense degree"](https://medium.com/@bohou/understanding-nodejs-event-loop-without-a-computer-science-degree-e1c9250d583f)
 
 ## Vídeos
 - JSConf

@@ -23,3 +23,4 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
     - ["Asynchrony: Under the Hood", por Shelley Vohr](https://www.youtube.com/watch?v=SrNQS8J67zc)
     - ["How Node.js Works", por Mosh](https://www.youtube.com/watch?v=jOupHNvDIq8)
     - ["Javascript Engines - How do they even?" por Franziska Hinkelmann](https://youtu.be/p-iiEDtpy6I)
+    - ["Parsing Javascript - better lazy than eager?", por Marja Hölttä](https://youtu.be/Fg7niTmNNLg)

@@ -14,6 +14,7 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
 - ["Should you be using Web Workers? (hint: probably not)", por David Gilbertson](https://medium.com/@david.gilbertson/should-you-should-be-using-web-workers-hint-probably-not-9b6d26dc8c6a)
 - ["Tasks, microtasks, queues and schedules", por Jake Archibald](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
 - [Série "A tour of V8", por Jay Conrod](http://jayconrod.com/posts/51/a-tour-of-v8--full-compiler)
+- ["Understanding NodeJS event loop without a Computer Sciense degree"](https://medium.com/@bohou/understanding-nodejs-event-loop-without-a-computer-science-degree-e1c9250d583f)
 
 ## Vídeos
 - JSConf
@@ -22,3 +23,5 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
     - ["In The Loop", por Jake Archibald](https://www.youtube.com/watch?v=cCOL7MC4Pl0)
     - ["Asynchrony: Under the Hood", por Shelley Vohr](https://www.youtube.com/watch?v=SrNQS8J67zc)
     - ["How Node.js Works", por Mosh](https://www.youtube.com/watch?v=jOupHNvDIq8)
+    - ["Javascript Engines - How do they even?" por Franziska Hinkelmann](https://youtu.be/p-iiEDtpy6I)
+    - ["Parsing Javascript - better lazy than eager?", por Marja Hölttä](https://youtu.be/Fg7niTmNNLg)

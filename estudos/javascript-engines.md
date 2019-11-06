@@ -15,6 +15,7 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
 - ["Tasks, microtasks, queues and schedules", por Jake Archibald](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
 - [Série "A tour of V8", por Jay Conrod](http://jayconrod.com/posts/51/a-tour-of-v8--full-compiler)
 - ["Understanding NodeJS event loop without a Computer Sciense degree"](https://medium.com/@bohou/understanding-nodejs-event-loop-without-a-computer-science-degree-e1c9250d583f)
+- ["Microtask and Macrotaks - A Hands-on approach"](https://blog.bitsrc.io/microtask-and-macrotask-a-hands-on-approach-5d77050e2168)
 
 ## Vídeos
 - JSConf

@@ -26,3 +26,4 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
     - ["How Node.js Works", por Mosh](https://www.youtube.com/watch?v=jOupHNvDIq8)
     - ["Javascript Engines - How do they even?" por Franziska Hinkelmann](https://youtu.be/p-iiEDtpy6I)
     - ["Parsing Javascript - better lazy than eager?", por Marja Hölttä](https://youtu.be/Fg7niTmNNLg)
+    - ["Essential JavaScript debugging tools for the modern detective", por Rebecca Hill](https://www.youtube.com/watch?v=TtsvMRxmfGA)

@@ -18,6 +18,7 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
 - ["Microtask and Macrotaks - A Hands-on approach"](https://blog.bitsrc.io/microtask-and-macrotask-a-hands-on-approach-5d77050e2168)
 
 ## Vídeos
+- ["Browser Exploitation" série de LiveOverflow](https://liveoverflow.com/tag/browser-exploitation/)
 - JSConf
     - ["What the heck is the event loop anyway?", por Phillip Roberts](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
     - ["Futher Adventures of the Event Loop", por Erin Zimmer](https://www.youtube.com/watch?v=u1kqx6AenYw)

@@ -17,6 +17,7 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
 - ["Understanding NodeJS event loop without a Computer Sciense degree"](https://medium.com/@bohou/understanding-nodejs-event-loop-without-a-computer-science-degree-e1c9250d583f)
 - ["Microtask and Macrotaks - A Hands-on approach"](https://blog.bitsrc.io/microtask-and-macrotask-a-hands-on-approach-5d77050e2168)
 - ["Just Javascript", modelos mentais de Dan Abramov (newsletter)](https://justjavascript.com/)
+- ["Web development, illustrated", por Maggie Appleton](https://illustrated.dev/)
 
 ## Vídeos
 - ["Browser Exploitation" série de LiveOverflow](https://liveoverflow.com/tag/browser-exploitation/)

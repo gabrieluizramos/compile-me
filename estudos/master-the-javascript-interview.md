@@ -14,3 +14,10 @@ Uma coleção de links para a série "Master the JavaScript interview" no medium
 - [The Two Pillars of JavaScript - Part 2](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
 - [10 Interview Questions Every JavaScript Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 - [7 Simple but Tricky JavaScript Interview Questions](https://dmitripavlutin.com/simple-but-tricky-javascript-interview-questions/)
+- [Tyler McGinnis](https://tylermcginnis.com/) series
+    - [Ultimate guide to execution contexts, hoisting, scopes and closures](https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/)
+    - [Arrow functions in JavaScript](https://www.youtube.com/watch?v=dB1KA-yz65s)
+    - [WTF is THIS: Understanding the "this" keyword in JavaScript](https://www.youtube.com/watch?v=zE9iro4r918)
+    - Prototype:
+        - [A Beginner's Guide to JavaScript's Prototype](https://www.youtube.com/watch?v=XskMWBXNbp0)
+        - [JavaScript Inheritance and the Prototype Chain](https://www.youtube.com/watch?v=MiKdRJc4ooE)

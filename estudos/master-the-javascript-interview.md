@@ -16,6 +16,7 @@ Uma coleção de links para a série "Master the JavaScript interview" no medium
 - [7 Simple but Tricky JavaScript Interview Questions](https://dmitripavlutin.com/simple-but-tricky-javascript-interview-questions/)
 - [Tyler McGinnis](https://tylermcginnis.com/) series
     - [Ultimate guide to execution contexts, hoisting, scopes and closures](https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/)
+    - [var vs let vs const](https://www.youtube.com/watch?v=6vBYfLCE9-Q)
     - [Arrow functions in JavaScript](https://www.youtube.com/watch?v=dB1KA-yz65s)
     - [WTF is THIS: Understanding the "this" keyword in JavaScript](https://www.youtube.com/watch?v=zE9iro4r918)
     - Prototype:

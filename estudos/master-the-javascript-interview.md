@@ -22,3 +22,8 @@ Uma coleção de links para a série "Master the JavaScript interview" no medium
     - Prototype:
         - [A Beginner's Guide to JavaScript's Prototype](https://www.youtube.com/watch?v=XskMWBXNbp0)
         - [JavaScript Inheritance and the Prototype Chain](https://www.youtube.com/watch?v=MiKdRJc4ooE)
+- Asynchronous JavaScript in four parts by [@rauschma](https://twitter.com/rauschma)
+    - [Foundations](https://exploringjs.com/impatient-js/ch_async-js.html)
+    - [Promises](https://exploringjs.com/impatient-js/ch_promises.html)
+    - [Async functions](https://exploringjs.com/impatient-js/ch_async-functions.html)
+    - [Async iteration](https://exploringjs.com/impatient-js/ch_async-iteration.html)

@@ -30,3 +30,6 @@ Uma coleção de links para alguns conteúdos sobre engines JavaScript.
     - ["Javascript Engines - How do they even?" por Franziska Hinkelmann](https://youtu.be/p-iiEDtpy6I)
     - ["Parsing Javascript - better lazy than eager?", por Marja Hölttä](https://youtu.be/Fg7niTmNNLg)
     - ["Essential JavaScript debugging tools for the modern detective", por Rebecca Hill](https://www.youtube.com/watch?v=TtsvMRxmfGA)
+- BrazilJS
+    -["How to be a compiler", por Mariko Kosaka](https://www.youtube.com/watch?v=rHCWQ0b3mWg)
+    -["V8 internals for JavaScript developers", por Mathias Bynens](https://www.youtube.com/watch?v=i3LRWERf74M)

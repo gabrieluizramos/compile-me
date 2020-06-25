@@ -1,2 +1,4 @@
 # Mind-maps
-My personal mind-maps, created with the help of some tools.
+Mind-maps pessoais, criados com algumas ferramentas.
+
+- [xmind-zen](./xmind-zen)

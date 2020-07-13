@@ -6,3 +6,4 @@ Qualquer erro, sinta-se livre para corrigir e enviar seu PR 😊
 - [Entrevistas](./entrevistas)
 - [Estudos](./estudos)
 - [Mind-maps](./mind-maps)
+- [Trampos](./trampos)

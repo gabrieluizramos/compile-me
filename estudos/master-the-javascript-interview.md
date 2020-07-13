@@ -13,6 +13,7 @@ Uma coleção de links para a série "Master the JavaScript interview" no medium
 - [The Two Pillars of JavaScript - Part 1](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3)
 - [The Two Pillars of JavaScript - Part 2](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4)
 - [10 Interview Questions Every JavaScript Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+- [Land Your Dream JavaScript Job with a Better Resume](https://medium.com/javascript-scene/land-your-dream-javascript-job-with-a-better-resume-beda92bcbed6)
 - [7 Simple but Tricky JavaScript Interview Questions](https://dmitripavlutin.com/simple-but-tricky-javascript-interview-questions/)
 - [Tyler McGinnis](https://tylermcginnis.com/) series
     - [Ultimate guide to execution contexts, hoisting, scopes and closures](https://tylermcginnis.com/ultimate-guide-to-execution-contexts-hoisting-scopes-and-closures-in-javascript/)

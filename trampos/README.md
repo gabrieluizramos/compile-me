@@ -44,6 +44,10 @@ Uma lista pessoal com alguns links de empresas que podem ser interessantes (remo
 ---
 
 ## Canadá
-
 - [Indeed](https://ca.indeed.com/)
 - [JobBank](https://www.jobbank.gc.ca/home)
+
+---
+
+## Reino Unido
+- [CW Jobs](https://www.cwjobs.co.uk/)
